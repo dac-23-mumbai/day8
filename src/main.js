@@ -1,7 +1,5 @@
-// import { sum } from "./calc.js";
-// import { subtraction } from "./calc.js";
-
-import { sum, subtraction } from "./calc.js";
+import sum from "./calc.js";
+import { subtraction } from "./calc.js";
 
 let output = sum(10, 20);
 console.log("Sum=" + output);
